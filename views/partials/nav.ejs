@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h1 class="text-center">Auth Routes</h1>
+    <nav>
+        <a href="/">Home</a>
+        <% if (user){%>
+        <h4>Welcome <%= user.email%></h4>
+        <a href="/logout">Logout</a>
+       <%} else { %>
+        <a href="/login">Log-in</a>
+        <a href="/signup">Sign-up</a>
+        <%}%>
+        
+    </nav>
+    
+</body>
+</html>

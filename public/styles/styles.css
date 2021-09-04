@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body{
+    font-family:fredoka one;
+}
+.form{
+    border: #333 2px solid;
+    padding: 20px;
+    border-radius: 3px;
+}
+input{
+    width: 350px;
+    height: 50px;
+}
